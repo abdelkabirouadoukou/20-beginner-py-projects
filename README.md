@@ -4,49 +4,54 @@ Welcome to this collection of 20 beginner-friendly Python projects! This reposit
 
 ## 📚 Projects Overview
 
-| # | Project Name | Description | Key Concepts |
-|---|--------------|-------------|--------------|
-| 01 | [Email Sender](./01-email-sender/) | Send emails programmatically using Python | SMTP, email library, automation |
-| 02 | [Word Replacement Program](./02-word-replacement-program/) | Replace words in text files | File I/O, string manipulation |
-| 03 | [Basic Calculator](./03-basic-calcuator/) | Simple calculator with basic operations | Functions, user input, arithmetic |
-| 04 | [Email Slicer](./04-email-slicer/) | Extract username and domain from email | String methods, validation |
-| 05 | [Binary Search Algorithm](./05-binary-search-algorithm/) | Implement binary search algorithm | Algorithms, recursion, lists |
-| 06 | [Quiz Program](./06-quiz-program/) | Interactive quiz application | Dictionaries, loops, conditionals |
-| 07 | [QR Code Generator](./07-qr-code-generator/) | Generate QR codes from text | External libraries, image processing |
-| 08 | [Internet Payment Calculator](./08-internet-pyment-calculator/) | Calculate internet usage costs | Mathematical operations, user input |
-| 09 | [Random Password Generator](./09-random-password-generator/) | Generate secure random passwords | Random module, string manipulation |
-| 10 | [Dice Rolling Simulator](./10-dice-rolling-simulator/) | Simulate dice rolls | Random numbers, loops, functions |
-| 11 | [Site Connectivity Checker](./11-site-connectivity-checker/) | Check if websites are accessible | HTTP requests, error handling |
-| 12 | [Currency Converter](./12-currency-converter/) | Convert between different currencies | APIs, JSON, data processing |
-| 13 | [Leap Year Checker](./13-leap-year-checker/) | Determine if a year is a leap year | Conditionals, mathematical logic |
-| 14 | [Word Dictionary](./14-word-dictionary/) | Look up word definitions | APIs, JSON, data structures |
-| 15 | [Rock Paper Scissors](./15-rock-paper-scissors/) | Classic game implementation | Game logic, user input, randomization |
-| 16 | [Python Face Detection](./16-python-face-detection/) | Detect faces in images | OpenCV, computer vision |
-| 17 | [Python Automation](./17-python-automation/) | Automate repetitive tasks | OS operations, file handling |
-| 18 | [Web Scraper](./18-web-scraper/) | Extract data from websites | BeautifulSoup, requests, HTML parsing |
-| 19 | [Image Resizer](./19-image-resizer/) | Resize images programmatically | PIL/Pillow, image processing |
-| 20 | [Graph Plotter](./20-graph-plotter/) | Create various types of graphs | Matplotlib, data visualization |
+| #   | Project Name                                                    | Description                               | Key Concepts                          |
+| --- | --------------------------------------------------------------- | ----------------------------------------- | ------------------------------------- |
+| 01  | [Email Sender](./01-email-sender/)                              | Send emails programmatically using Python | SMTP, email library, automation       |
+| 02  | [Word Replacement Program](./02-word-replacement-program/)      | Replace words in text files               | File I/O, string manipulation         |
+| 03  | [Basic Calculator](./03-basic-calcuator/)                       | Simple calculator with basic operations   | Functions, user input, arithmetic     |
+| 04  | [Email Slicer](./04-email-slicer/)                              | Extract username and domain from email    | String methods, validation            |
+| 05  | [Binary Search Algorithm](./05-binary-search-algorithm/)        | Implement binary search algorithm         | Algorithms, recursion, lists          |
+| 06  | [Quiz Program](./06-quiz-program/)                              | Interactive quiz application              | Dictionaries, loops, conditionals     |
+| 07  | [QR Code Generator](./07-qr-code-generator/)                    | Generate QR codes from text               | External libraries, image processing  |
+| 08  | [Internet Payment Calculator](./08-internet-pyment-calculator/) | Calculate internet usage costs            | Mathematical operations, user input   |
+| 09  | [Random Password Generator](./09-random-password-generator/)    | Generate secure random passwords          | Random module, string manipulation    |
+| 10  | [Dice Rolling Simulator](./10-dice-rolling-simulator/)          | Simulate dice rolls                       | Random numbers, loops, functions      |
+| 11  | [Site Connectivity Checker](./11-site-connectivity-checker/)    | Check if websites are accessible          | HTTP requests, error handling         |
+| 12  | [Currency Converter](./12-currency-converter/)                  | Convert between different currencies      | APIs, JSON, data processing           |
+| 13  | [Leap Year Checker](./13-leap-year-checker/)                    | Determine if a year is a leap year        | Conditionals, mathematical logic      |
+| 14  | [Word Dictionary](./14-word-dictionary/)                        | Look up word definitions                  | APIs, JSON, data structures           |
+| 15  | [Rock Paper Scissors](./15-rock-paper-scissors/)                | Classic game implementation               | Game logic, user input, randomization |
+| 16  | [Python Face Detection](./16-python-face-detection/)            | Detect faces in images                    | OpenCV, computer vision               |
+| 17  | [Python Automation](./17-python-automation/)                    | Automate repetitive tasks                 | OS operations, file handling          |
+| 18  | [Web Scraper](./18-web-scraper/)                                | Extract data from websites                | BeautifulSoup, requests, HTML parsing |
+| 19  | [Image Resizer](./19-image-resizer/)                            | Resize images programmatically            | PIL/Pillow, image processing          |
+| 20  | [Graph Plotter](./20-graph-plotter/)                            | Create various types of graphs            | Matplotlib, data visualization        |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.7 or higher installed on your system
 - Basic understanding of Python syntax
 - Text editor or IDE (VS Code, PyCharm, etc.)
 
 ### Installation
+
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/khabzox/20-beginner-py-projects.git
    cd 20-beginner-py-projects
    ```
 
 2. Create a virtual environment (recommended):
+
    ```bash
    python -m venv venv
    ```
 
 3. Activate the virtual environment:
+
    - Windows: `venv\Scripts\activate`
    - macOS/Linux: `source venv/bin/activate`
 
@@ -55,6 +60,7 @@ Welcome to this collection of 20 beginner-friendly Python projects! This reposit
 ## 📁 Project Structure
 
 Each project is contained in its own directory and typically includes:
+
 - `main.py` - The main Python script
 - `README.md` - Project-specific documentation
 - `requirements.txt` - Python dependencies (if applicable)
@@ -63,7 +69,9 @@ Each project is contained in its own directory and typically includes:
 ## 🎯 Learning Path
 
 ### Beginner (Projects 1-7)
+
 Start with these if you're new to Python:
+
 - Email Sender
 - Word Replacement Program
 - Basic Calculator
@@ -73,7 +81,9 @@ Start with these if you're new to Python:
 - QR Code Generator
 
 ### Intermediate (Projects 8-14)
+
 Move to these once you're comfortable with basics:
+
 - Internet Payment Calculator
 - Random Password Generator
 - Dice Rolling Simulator
@@ -83,7 +93,9 @@ Move to these once you're comfortable with basics:
 - Word Dictionary
 
 ### Advanced Beginner (Projects 15-20)
+
 Challenge yourself with these projects:
+
 - Rock Paper Scissors
 - Python Face Detection
 - Python Automation
@@ -133,6 +145,7 @@ pip install tkinter
 ## 🤝 Contributing
 
 Feel free to contribute by:
+
 - Adding new beginner-friendly projects
 - Improving existing code
 - Fixing bugs
@@ -146,6 +159,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙋‍♀️ Support
 
 If you have questions or need help:
+
 - Check the individual project READMEs
 - Review the code comments
 - Search for solutions online
