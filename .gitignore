@@ -167,8 +167,8 @@ secrets.py
 output/
 downloads/
 temp/
-*.png
-*.jpg
+# *.png
+# *.jpg
 *.jpeg
 *.gif
 *.pdf
